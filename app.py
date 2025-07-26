@@ -49,9 +49,11 @@ def get_inference_session(model_path):
         return None
 
 def preprocess_image(image_file):
+    """Prepares the user-uploaded image for the ONNX model."""
     img = Image.open(image_file).convert("RGB")
     prep = transforms.Compose([
-        transforms.Resize(480),
+        # The fix is to resize to a fixed size the model expects.
+        transforms.Resize((224, 224)), 
         transforms.ToTensor(),
         transforms.Lambda(lambda x: x.mul(255))
     ])
