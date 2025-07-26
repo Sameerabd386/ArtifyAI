@@ -1,0 +1,8 @@
+streamlit
+onnxruntime
+numpy
+torch
+torchvision
+requests
+Pillow
+streamlit-image-comparison
