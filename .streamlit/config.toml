@@ -1,5 +1,7 @@
 # .streamlit/config.toml
 
+[theme]
+
 # Black for interactive elements like buttons.
 primaryColor = "#000000"
 
