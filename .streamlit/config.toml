@@ -1,0 +1,16 @@
+# .streamlit/config.toml
+
+# Black for interactive elements like buttons.
+primaryColor = "#000000"
+
+# A warm, off-white cream for the main background.
+backgroundColor = "#F3F0E8"
+
+# A slightly darker cream for the sidebar.
+secondaryBackgroundColor = "#EAE7DD"
+
+# Black for all text to ensure high contrast and readability.
+textColor = "#000000"
+
+# Font family for all text in the app.
+font = "Montserrat"
