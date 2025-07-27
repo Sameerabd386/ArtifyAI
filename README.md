@@ -13,7 +13,6 @@ Turn any photo into a work of art! This interactive web application uses Fast Ne
 
 ### ✨ [Live Demo](https://artifyai-arts.streamlit.app/)
 
-*(Note: Replace the above URL with your actual Streamlit App URL after deployment)*
 
 ---
 
